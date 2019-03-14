@@ -1,4 +1,4 @@
-.body {background: #f3f2f3;
+body {background: #f3f2f3;
 }
 .container{
     background: #f3f2f3;
@@ -17,7 +17,7 @@
 	float: right;
 	width: 900px ;
 	height: 850px;}
-.signin{
+.signin {
 	float: left;
 	margin: 100px;
 	width: 250px;
@@ -30,5 +30,19 @@
 	height: 500px;
 }
 .footer{
-
+	background: goldenrod;
+	height: 90px;
+	width: 900px;
+}
+.signin :focus{
+	color: rgb(213, 235, 23);
+}
+.signup:focus{
+	color: rgb(213, 235, 23);
+}
+.as:hover{
+	background: rgb(105, 104, 104);
+}
+.qw:hover{
+	background: rgb(105, 104, 104);
 }
